@@ -1,7 +1,9 @@
-import Head from 'next/head'
-import styles from '../styles/Home.module.css'
+import { ReactElement } from 'react';
+import Head from 'next/head';
 
-export default function Home() {
+import styles from './styles.module.scss';
+
+export default function Home(): ReactElement {
   return (
     <div className={styles.container}>
       <Head>
@@ -61,5 +63,5 @@ export default function Home() {
         </a>
       </footer>
     </div>
-  )
+  );
 }

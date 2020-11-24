@@ -1,8 +1,14 @@
 # next-typescript-tailwind-starter
 
-Lightly opinionated starter.
+Mildly opinionated starter.
 
-## Getting Started
+## Folder Structure
+
+The folder structure is based on an idea from Robin Wieruch ([repo](https://github.com/rwieruch/nextjs-firebase-authentication)) to make your code much more agnostic/easily exportable out of Next.js (just in case).
+
+Despite the extra folders, TypeScript's [path aliases functionality](https://www.typescriptlang.org/docs/handbook/module-resolution.html#path-mapping) keeps the experience very ergonomic.
+
+## Next.js' Getting Started Instructions
 
 First, run the development server:
 
